@@ -1,0 +1,62 @@
+body {
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+canvas {
+  position: relative;
+  margin:auto;
+}
+
+nav{
+  width: 6%;
+  min-height: 362px;
+  background: #ffffff;
+  color: #333;
+  text-align: center; 
+  position: fixed; 
+  margin-left: 93%;
+  margin-top: 14%;
+  z-index: 999;
+  border-radius: 5px;
+}
+
+.row {
+  width: 50%;
+  /* float: left; */
+  display: flex;
+  flex-wrap: wrap;
+}
+}
+
+
+.column {
+  width: 100%;
+  display: block;  
+}
+
+.contenido{
+  width: 100%; 
+}
+
+p{
+  width: 30%;
+  position: absolute;
+  font-size: 20px;
+  padding: 5px;
+  margin-top:1em;
+  text-align: center;
+}
+
+input[type="color"]{
+
+  height: 40px;
+}
+input[type="number"]{
+  width: 40%;
+  height: 40px;
+}
+button{
+  background: none;
+  border: none;
+}

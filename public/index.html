@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Pizarron</title>
+</head>
+
+	<nav>
+		<div class="row">
+			 
+			<div class="column">
+				<h2>Figuras</h2>
+				<div class="contenido">
+					<div class="column">
+						<button onclick="Estadofigura('0');"><img src="img/circulo.png" title="Circulo"></button>
+					</div>
+					<div class="column">
+						<button onclick="Estadofigura('1');"><img src="img/cuadrado.png" title="Cuadrado"></button>
+					</div>
+					<div class="column">
+						<button onclick="Estadofigura('2');"><img src="img/linea.png" title="Linea"></button>
+					</div>
+				</div>
+			</div>
+			<div class="column">
+				<h2>Colores</h2>
+				<div class="contenido">
+					<div class="column"><input type="color" name="color"></div>
+				</div>
+			</div>
+	</div>
+
+
+	</nav>
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.dev.js"></script>
+	<script src="libraries/jquery.js"></script>
+	<script src="sketch.js"></script>
+<body>
+</body>
+</html>
